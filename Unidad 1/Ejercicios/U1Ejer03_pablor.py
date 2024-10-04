@@ -9,7 +9,7 @@ GIR0641 = []
 #Crear una lista llamada numeros_control 
 numeros_control = [1219100524, 1219100537, 1219100543, 1219101033, 1219100484]
 
-#Crear una lista llamada nombres_grupo para almacenar los nombres de tus compañeros.
+#Crear una lista llamada nombres_grupo para almacenar los nombres de los comañeros
 nombres_grupo = []
 
 #Escribe una instrucción que imprima todo el contenido de la lista.
@@ -21,12 +21,12 @@ for num_control in numeros_control:
     print("Ingresa el nombre del No. Control", num_control)
     
     # Mediante la función input solicite el nombre
-    nombre = input("Ingresa tu nombre: ")
+    nombre = input("Ingresa el nombre: ")
     
     # Una vez que se capture el nombre agrega el dato a la colección haciendo corresponder el número de control con el nombre
     nombres_grupo.append(nombre)
 
-# Imprime el contenido de la colección.
+# Imprimir el contenido de la colección
 print("Nombres de los compañeros:")
 for i in range(len(numeros_control)):
     print(f"Número de control {numeros_control[i]}: {nombres_grupo[i]}")
