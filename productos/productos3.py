@@ -1,6 +1,6 @@
 '''
      Nombre: Juan Pablo López Ramírez
-     Descfripción: API de la Productos
+     Descfripción: API de Productos
      Fecha: 17/10/2024
     
 '''
