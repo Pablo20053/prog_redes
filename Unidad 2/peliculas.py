@@ -8,7 +8,7 @@ def buscar_programa_por_nombre(nombre):
         data = response.json()
         return data[0]['show'] if data else None
     except (requests.exceptions.RequestException, ValueError) as e:
-        print(f"error al buscar la peli o serie: {e}")
+        print(f"Error al buscar el programa: {e}")
         return None
 
 def buscar_programas_por_genero(genero):
@@ -18,7 +18,7 @@ def buscar_programas_por_genero(genero):
         data = response.json()
         return [programa['show'] for programa in data] if data else []
     except (requests.exceptions.RequestException, ValueError) as e:
-        print(f"Error al buscar por género: {e}")
+        print(f"Error al buscar programas por género: {e}")
         return []
 
 def mostrar_detalles_programa(programa):
@@ -32,8 +32,8 @@ def menu():
     """ menu para el usuario"""
     while True:
         print("\nMenú:")
-        print("1. Buscar peli o serie por nombre")
-        print("2. Buscar pelis o series por género")
+        print("1. Buscar peli por nombre")
+        print("2. Buscar pelis por género")
         print("3. Salir")
         opcion = input("introduce una opción: ")
 
