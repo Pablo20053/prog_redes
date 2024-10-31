@@ -61,7 +61,6 @@ def menu():
 
         else:
             print("Ingresa otra opción")
-
+            
 if __name__ == "__main__":
     menu()
-    
