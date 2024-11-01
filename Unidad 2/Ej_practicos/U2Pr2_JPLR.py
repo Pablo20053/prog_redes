@@ -3,7 +3,7 @@ import requests
     Nombre: Juan Pablo López Ramírez
     Fecha: 31/10/2024
     Descripción : Ejercicio 2 practic0 unidad 2
-    Termine el 1
+    Termine el 2
 
 '''
 #Funcion Linea

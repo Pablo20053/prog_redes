@@ -4,6 +4,7 @@ import json
     Nombre: Juan Pablo López Ramírez
     Fecha: 31/10/2024
     Descripción : Ejercicio 3 practic0 unidad 2
+    Termine el 3
 
 '''
 def menu():
