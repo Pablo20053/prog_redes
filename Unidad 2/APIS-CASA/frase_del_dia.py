@@ -1,7 +1,9 @@
 import requests
 
 '''
-Api que muestra la frase del dia 
+
+    Juan Pablo López Ramírez GIR0641
+    Api que muestra la frase del dia 
 
 '''
 
